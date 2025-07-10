@@ -259,8 +259,6 @@ async function playerSearch(selectedSeason = "", minOvr = 0) {
 
 async function main() {
   try {
-    await dbConnect();
-
     // --------------------------------------   2012 KH--------------------------------------
 
     const BLD_LIST = await playerSearch([828], 0); // playerSearch(시즌넘버, 최소오버롤)
